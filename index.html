@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="./js/system/index.js"></script>
+  </head>
+  <body id="background1">
+    <div class="" style="overflow: hidden">
+      <div class="mx-5 px-3">
+        <nav
+          class="fixed-top navbar navbar-expand-lg"
+          style="background-color: #060606"
+        >
+          <div class="container-fluid">
+            <div class="navbar-brand text-white">
+              <img
+                src="/assets/icon/Pace.png"
+                alt=""
+                width="170px"
+                class="mt-2"
+              />
+            </div>
+
+            <div class="text-end mt-2">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item border1">
+                    <a
+                      class="nav-link text-white pe-5 me-2 mt-1 boxshadow text-size violet font-style"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white pe-5 me-2 mt-1 boxshadow text-size font-style"
+                      href="#"
+                      >Shop</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white pe-5 me-2 mt-1 boxshadow text-size font-style"
+                      href="#"
+                      >Men</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white pe-5 me-2 mt-1 boxshadow text-size font-style"
+                      href="#"
+                      >Women</a
+                    >
+                  </li>
+                  <!-- search icon -->
+                  <li class="nav-item pe-4">
+                    <form role="search">
+                      <div class="form-group">
+                        <input
+                          class="form-control me-2 rounded-4 mt-2"
+                          style="height: 40px"
+                          type="search"
+                          id="search"
+                          placeholder=""
+                        />
+                        <label class="form-label" for="search">
+                          <span
+                            ><button
+                              class=""
+                              style="
+                                background-color: transparent;
+                                border: none;
+                              "
+                              type="submit"
+                            >
+                              <img
+                                src="/assets/icon/search (1).png"
+                                alt="search"
+                                width="13px"
+                                height="13px"
+                                class="mb-1 font-style"
+                              /></button></span
+                          >Search
+                        </label>
+                      </div>
+                    </form>
+                  </li>
+                  <!-- cart icon -->
+                  <li class="nav-item">
+                    <a href="" class="nav-link mt-2 pe-4"
+                      ><img
+                        src="./assets/icon/shopping-cart (1).png"
+                        alt="cart"
+                        width="21px"
+                        height="21px"
+                    /></a>
+                  </li>
+                  <!-- profile icon -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle mt-2 text-white"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img
+                        src="/assets/icon/user (1).png"
+                        alt="profile"
+                        width="23px"
+                        height="20px"
+                      />
+                    </a>
+                    <ul
+                      class="dropdown-menu dropdown-menu-end"
+                      id="stylemodal1"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><span class="font-style" id="user_logged"
+                            >Profile</span
+                          ></a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item mt-2 font-style" href="#"
+                          >Notification</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link text-white logout d-flex align-items-center justify-content-center"
+                        >
+                          <button
+                            class="btn2 fw-bold text-white font-style"
+                            id="btn_logout"
+                          >
+                            Logout
+                          </button>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <br />
+    <div class="container-fluid pt-2">
+      <div class="row">
+        <div class="col-lg-7">
+          <div>
+            <h1 class="text-white spacing1 display-4">
+              Walk in Comfort, Walk in Style with Pace Footwear
+            </h1>
+          </div>
+          <div>
+            <a href="shop.html"
+              ><button class="btn3 spacing2" style="width: 200px">
+                <span class="px-1">Shop Now</span>
+                <img
+                  src="/assets/icon/shoe-prints.png"
+                  alt=""
+                  class="pb-1"
+                  width="17px"
+                /></button
+            ></a>
+          </div>
+
+          <div>
+            <h4 class="pt-5 font-style text-white text-center spacing3">
+              We Provide Best Customer Experience
+            </h4>
+            <div
+              class="spacing2 display-picture pt-2 ps-3 cards card-container fade-up"
+            >
+              <div class="p-3 card text-center" style="width: 150px">
+                <div>
+                  <img
+                    class="mb-2"
+                    src="/assets/icon/box-open.png"
+                    alt=""
+                    width="30px"
+                  />
+                </div>
+                Free Shipping
+              </div>
+              <div class="p-3 card text-center" style="width: 150px">
+                <div>
+                  <img
+                    class="mb-2"
+                    src="/assets/icon/coins.png"
+                    alt=""
+                    width="30px"
+                  />
+                </div>
+                Money Guarantee
+              </div>
+              <div class="p-3 card text-center" style="width: 150px">
+                <div>
+                  <img
+                    class="mb-2"
+                    src="/assets/icon/time-twenty-four.png"
+                    alt=""
+                    width="30px"
+                  />
+                </div>
+                24/7 Support
+              </div>
+              <div class="p-3 card text-center" style="width: 150px">
+                <div>
+                  <img
+                    class="mb-2"
+                    src="/assets/icon/credit-card.png"
+                    alt=""
+                    width="30px"
+                  />
+                </div>
+                Flexible Payment
+              </div>
+            </div>
+          </div>
+          <br /><br />
+        </div>
+        <div
+          class="col-6 position-absolute bottom-0 end-0 mb-1"
+          style="overflow: hidden"
+        >
+          <div class="container-fluid fade-up">
+            <div style="margin-top: 100px !important">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                width="735px"
+                class="image1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5">
+        <div
+          class="card-container d-flex align-items-center justify-content-center pt-5"
+        >
+          <div class="row">
+            <div class="col-6">
+              <div
+                class="card1 p-3 color text-white"
+                style="
+                  position: relative;
+                  overflow: hidden;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                <div class="text-secondary">100+ Shoes Products</div>
+                <h2 class="pt-3">MEN</h2>
+                <ul>
+                  <li>Oxfords</li>
+                  <li>Brogues</li>
+                  <li>Sandals</li>
+                  <li>Sneakers</li>
+                  <li>Loafers</li>
+                  <li>Flip-Flops</li>
+                  <li>Desert Boots</li>
+                  <li>Boat Shoes</li>
+                  <li>Moccasins</li>
+                  <li>Chukka Boots</li>
+                </ul>
+                <div>
+                  <img
+                    src="./assets/imgs/pic3.png"
+                    alt=""
+                    width="400px"
+                    style="position: absolute; top: 0; right: 0; height: auto"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div
+                class="card1 p-3 color text-white"
+                style="
+                  position: relative;
+                  overflow: hidden;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                <div class="text-secondary">100+ Shoes Products</div>
+                <h2 class="pt-3">WOMEN</h2>
+                <ul>
+                  <li>Sandals</li>
+                  <li>Ankle Boots</li>
+                  <li>Knee-High Boots</li>
+                  <li>Sneakers</li>
+                  <li>Loafers</li>
+                  <li>Espadrilles</li>
+                  <li>Mary Janes</li>
+                  <li>Slingbacks</li>
+                  <li>High Heels</li>
+                  <li>Ballet Flats</li>
+                </ul>
+                <div>
+                  <img
+                    src="./assets/imgs/pic4.png"
+                    alt=""
+                    width="400px"
+                    style="position: absolute; top: 0; right: 0; height: auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
